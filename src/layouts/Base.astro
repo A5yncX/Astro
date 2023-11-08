@@ -20,6 +20,14 @@ const {
 
 <html lang={siteConfig.lang}>
 	<head>
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-SQWTGKC5EW"></script>
+		<script>
+  			window.dataLayer = window.dataLayer || [];
+  			function gtag(){dataLayer.push(arguments);}
+  			gtag('js', new Date());
+  			gtag('config', 'G-SQWTGKC5EW');
+		</script>
 		<BaseHead title={title} description={description} ogImage={ogImage} articleDate={articleDate} />
 		{
 			/* 
