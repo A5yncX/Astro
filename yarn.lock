@@ -867,7 +867,7 @@
   resolved "https://registry.yarnpkg.com/@resvg/resvg-js-win32-x64-msvc/-/resvg-js-win32-x64-msvc-2.6.0.tgz#08431a243c15f002d32e5e628857d19852323274"
   integrity sha512-8lJlghb+Unki5AyKgsnFbRJwkEj9r1NpwyuBG8yEJiG1W9eEGl03R3I7bsVa3haof/3J1NlWf0rzSa1G++A2iw==
 
-"@resvg/resvg-js@^2.4.1":
+"@resvg/resvg-js@^2.6.0":
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/@resvg/resvg-js/-/resvg-js-2.6.0.tgz#d811100796dda1f37a516c747dab3bbc9b24e5e4"
   integrity sha512-Tf3YpbBKcQn991KKcw/vg7vZf98v01seSv6CVxZBbRkL/xyjnoYB6KgrFL6zskT1A4dWC/vg77KyNOW+ePaNlA==
