@@ -11,6 +11,20 @@
 		--theme-accent: 351deg 66% 48%;
 		--theme-accent-2: 0deg 0% 7%;
 		--theme-quote: 351deg 66% 48%;
+		font-display: swap;
+		font-size: 17px
+	}
+	.cactus-link {
+		color: #a0e1ff;
+		text-decoration: none;
+	  }
+	.cactus-link:hover {
+		color: #000;
+		background: #b7d5ff;
+		text-decoration: none;
+	  }
+	.px-4 {
+		color: #a0e1ff;
 	}
 
 	:root.dark {
@@ -29,6 +43,7 @@
 
 	html body {
 		@apply mx-auto flex min-h-screen max-w-3xl flex-col bg-bgColor px-8 pt-16 font-mono text-sm font-normal text-textColor antialiased;
+
 	}
 
 	.glowing {
@@ -146,4 +161,5 @@
 		z-index: -1;
 		overflow: hidden;
 	}
+
 }
