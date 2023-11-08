@@ -12,37 +12,41 @@ const meta = {
 
 <PageLayout meta={meta}>
 	<div class="space-y-6">
-		<h1 class="title">About</h1>
-		<p>
-			Hi, I’m a starter Astro. I’m particularly great for getting you started with your own blogging
-			website.
-		</p>
-		<div class="flex justify-center">
-			<Image
-				src={aboutImg}
-				alt="A cartoon cactus looking at the 'Astro.build' logo"
-				loading="eager"
-				fetchpriority="high"
-			/>
-		</div>
-		<p>Here are my some of my awesome built in features:</p>
+		<h1 class="title">🫥简介</h1>
+		<p><code>📚Keep Studying</code></p>
+		<p>AsyncX,有一只长毛狮子猫,摄影门外汉,第九艺术爱好者。</p>
+	  
+		<h1 class="title">摸🐟统计</h1>
+		<img src="https://ghchart.rshah.org/354e6b/A5yncX" alt=":P" style="cursor: zoom-in;">
+	  
+		<h1 class="title">📝博客更新记录</h1>
 		<ul class="list-inside list-disc">
-			<li>I'm ultra fast as I'm a static site</li>
-			<li>I'm fully responsive</li>
-			<li>I come with a light and dark mode</li>
-			<li>I'm easy to customise and add additional content</li>
-			<li>I have Tailwind CSS styling</li>
-			<li>Shiki code syntax highlighting</li>
-			<li>Satori for auto generating OG images for blog posts</li>
+		  <li>[x] 使用Astro重构博客, 更换评论为giscus</li>
+		  <li>[x] 更换 markdown 解析器为 <code>markdown-it</code>，添加脚注功能 <code>footnote</code></li>
+		  <li>[x] 更换主题为 <code>cactus</code></li>
+		  <li>[x] 添加暗黑模式</li>
+		  <li>[x] 将 <code>js/css/font/gif</code> 迁移至 GitHub，使用 <code>netlify</code> 加速</li>
+		  <li>[x] 增加留言墙</li>
+		  <li>[x] 增加访问次数统计</li>
+		  <li>[x] 修改部分元素为像素风格</li>
+		  <li>[x] 修改右侧目录页为浮动状态</li>
+		  <li>[x] 增加 <code>Rss</code> 订阅链接</li>
+		  <li>[x] 增加 <code>Mathjax</code> 渲染数学公式</li>
+		  <li>[x] 增加全站字数统计</li>
+		  <li>[x] 将 <code>js/css/font/gif</code> 迁移至国内云服务器</li>
+		  <li>[x] 修改评论引擎为 <code>utterances</code></li>
+		  <li>[x] 添加动态头标</li>
+		  <li>[x] 修改“关于”页面的渲染页为 <code>.md</code></li>
+		  <li>[x] 修改字体为像素风</li>
+		  <li>[x] 修改 logo 和头标角标</li>
+		  <li>[x] 关闭打赏功能/模块修改为显示邮箱</li>
+		  <li>[x] 为博客配置 <code>Github Action</code> 实现自动化</li>
+		  <li>[x] 修改右上角导航页</li>
+		  <li>[x] 修改布局和字体</li>
+		  <li>[x] 修改颜色为蓝色</li>
+		  <li>[x] 更换主题为 <code>vexo</code></li>
 		</ul>
-		<p>
-			Clone or fork my <a
-				class="cactus-link inline-block"
-				href="https://github.com/chrismwilliams/astro-cactus"
-				target="_blank"
-				rel="noopener noreferrer"
-				aria-label="github repository">repo</a
-			> if you like me!
-		</p>
+	  </div>
+	  
 	</div>
 </PageLayout>
