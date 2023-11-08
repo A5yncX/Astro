@@ -26,6 +26,9 @@
 	.px-4 {
 		color: #a0e1ff;
 	}
+	.mt-16 {
+		margin-top: 3rem;
+	}
 
 	:root.dark {
 		color-scheme: dark;
