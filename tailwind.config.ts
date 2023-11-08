@@ -23,7 +23,7 @@ export default {
 				bgColor: "hsl(var(--theme-bg) / <alpha-value>)",
 				textColor: "hsl(var(--theme-text) / <alpha-value>)",
 				link: "hsl(var(--theme-link) / <alpha-value>)",
-				accent: "#a0e1ff / <alpha-value>)",
+				accent: "#5d8497 / <alpha-value>)",
 				"accent-2": "hsl(var(--theme-accent-2) / <alpha-value>)",
 				quote: "hsl(var(--theme-quote) / <alpha-value>)",
 			},
