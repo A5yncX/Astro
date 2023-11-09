@@ -21,7 +21,7 @@ export default defineConfig({
       }
     },
     shikiConfig: {
-      theme: "dracula",
+      theme: "vitesse-dark",
       wrap: true
     }
   },

@@ -25,11 +25,13 @@
 	},
 	"devDependencies": {
 		"@astrojs/check": "^0.3.1",
+		"@babel/highlight": "^7.22.20",
 		"@pagefind/default-ui": "^1.0.3",
 		"@resvg/resvg-js": "^2.4.1",
 		"@tailwindcss/aspect-ratio": "^0.4.2",
 		"@tailwindcss/typography": "^0.5.10",
 		"@types/eslint": "^8.44.3",
+		"@types/prismjs": "^1.26.3",
 		"@typescript-eslint/eslint-plugin": "^6.7.4",
 		"@typescript-eslint/parser": "^6.7.4",
 		"astro-eslint-parser": "^0.16.0",
