@@ -12,7 +12,7 @@ import partytown from "@astrojs/partytown";
 // https://astro.build/config
 export default defineConfig({
   // ! Please remember to replace the following site property with your own domain
-  site: "https://hi,asyncx.top/",
+  site: "https://hi.asyncx.top/",
   markdown: {
     remarkPlugins: [remarkUnwrapImages, remarkReadingTime],
     remarkRehype: {
