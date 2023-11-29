@@ -1,7 +1,7 @@
 export type SiteConfig = {
 	author: string;
 	title: string;
-	description: string;
+	// description: string;
 	lang: string;
 	ogLocale: string;
 	date: {
@@ -23,7 +23,7 @@ export type PaginationLink = {
 
 export type SiteMeta = {
 	title: string;
-	description?: string;
+	// description?: string;
 	ogImage?: string | undefined;
 	articleDate?: string | undefined;
 };
