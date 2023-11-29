@@ -1,7 +1,7 @@
 export type SiteConfig = {
 	author: string;
 	title: string;
-	description: string;
+	// description: string;
 	lang: string;
 	ogLocale: string;
 	date: {
