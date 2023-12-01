@@ -27,7 +27,7 @@
 	},
 	"devDependencies": {
 		"@astrojs/check": "^0.3.1",
-		"@babel/highlight": "^7.22.20",
+		"@babel/highlight": "^7.23.4",
 		"@pagefind/default-ui": "^1.0.3",
 		"@resvg/resvg-js": "^2.4.1",
 		"@tailwindcss/aspect-ratio": "^0.4.2",
