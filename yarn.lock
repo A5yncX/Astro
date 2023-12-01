@@ -36,12 +36,7 @@
   resolved "https://registry.yarnpkg.com/@astrojs/compiler/-/compiler-1.8.2.tgz#f305d5724c45a9932a8ef4e87b2e7227d15d1c2b"
   integrity sha512-o/ObKgtMzl8SlpIdzaxFnt7SATKPxu4oIP/1NL+HDJRzxfJcAkOTAb/ZKMRyULbz4q+1t2/DAebs2Z1QairkZw==
 
-"@astrojs/compiler@^2.0.0", "@astrojs/compiler@^2.2.2":
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/@astrojs/compiler/-/compiler-2.2.2.tgz#3f5fb8f8fdfb26ab65fc3f00255b214c0a211c32"
-  integrity sha512-nJaEgq0EP1mybaW1PvNnnp4RxVQnaLajUYnqrqxFbIdu1ELbH6OxNuAJWI+/q9TbMP6NG/eK6WRMhQsxX6qkUQ==
-
-"@astrojs/compiler@^2.3.0":
+"@astrojs/compiler@^2.0.0", "@astrojs/compiler@^2.2.2", "@astrojs/compiler@^2.3.0":
   version "2.3.2"
   resolved "https://registry.npmmirror.com/@astrojs/compiler/-/compiler-2.3.2.tgz#78001a4a86c3f2cf4bc80db46b13f6188fbb01da"
   integrity sha512-jkY7bCVxl27KeZsSxIZ+pqACe+g8VQUdTiSJRj/sXYdIaZlW3ZMq4qF2M17P/oDt3LBq0zLNwQr4Cb7fSpRGxQ==
@@ -1482,10 +1477,10 @@ astro-icon@^0.8.1:
     resolve-pkg "^2.0.0"
     svgo "^2.8.0"
 
-astro@^3.6.3:
-  version "3.6.3"
-  resolved "https://registry.npmmirror.com/astro/-/astro-3.6.3.tgz#18d72ca264c6592a823b67b9287faae512b1f57b"
-  integrity sha512-oEkYfXTk38MulcM0lgonGxDO+si4XbPyaf82YK+STLbEFtRggJYiQTyM0zGXnpLEiXX0DOjSvWLhFw3iVcZY1w==
+astro@^3.6.4:
+  version "3.6.4"
+  resolved "https://registry.yarnpkg.com/astro/-/astro-3.6.4.tgz#9741fb45a449992333af5e39ec6925eb658875e1"
+  integrity sha512-YatUyWEQ9GUC79Wc2zbovy6D6bXPW9++Z6PYs4GDamEDspUSnnzL/INB7WJqgFI0xAFk9jcUr+MZYjkdWqXYTw==
   dependencies:
     "@astrojs/compiler" "^2.3.0"
     "@astrojs/internal-helpers" "0.2.1"
