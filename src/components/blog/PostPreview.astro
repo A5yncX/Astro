@@ -5,17 +5,28 @@ import FormattedDate from "../FormattedDate.astro";
 
 type Props<Tag extends HTMLTag> = Polymorphic<{ as: Tag }> & {
 	post: CollectionEntry<"post">;
+	period: CollectionEntry<"period">;  // 添加 'period' 属性
 	withDesc?: boolean;
 };
 
-const { post, as: Tag = "div", withDesc = false } = Astro.props;
+const { post, period, as: Tag = "div", withDesc = false } = Astro.props;  // 添加 'period' 到解构的 props 中
 const postDate = post.data.updatedDate ?? post.data.publishDate;
+const periodDate = period.data.updatedDate ?? period.data.publishDate;  // 使用 'period' 替代 'post'
+
 ---
 
 <FormattedDate date={postDate} class="min-w-[120px] text-gray-500" />
 <Tag>
 	<a href={`/posts/${post.slug}/`} class="cactus-link" rel="prefetch">
 		{post.data.title}
+	</a>
+</Tag>
+<!-- {withDesc && <q class="line-clamp-3 block italic">{post.data.description}</q>} -->
+
+<FormattedDate date={periodDate} class="min-w-[120px] text-gray-500" />
+<Tag>
+	<a href={`/period/${period.slug}/`} class="cactus-link" rel="prefetch">
+		{period.data.title}
 	</a>
 </Tag>
 <!-- {withDesc && <q class="line-clamp-3 block italic">{post.data.description}</q>} -->

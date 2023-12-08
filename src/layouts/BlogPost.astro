@@ -8,14 +8,16 @@ import WebMentions from "@/components/blog/webmentions/index";
 
 interface Props {
 	post: CollectionEntry<"post">;
+	period: CollectionEntry<"period">;  // 添加 'period' 属性
 }
 
-const { post } = Astro.props;
+const { post, period } = Astro.props;  // 添加 'period' 到解构的 props 中
 const {
 	data: { title, ogImage, publishDate, updatedDate },
 	// data: { title, description, ogImage, publishDate, updatedDate },
 	slug,
 } = post;
+
 const socialImage = ogImage ?? `/og-image/${slug}.png`;
 const articleDate = updatedDate?.toISOString() ?? publishDate.toISOString();
 const { headings } = await post.render();
