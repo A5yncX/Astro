@@ -38,6 +38,10 @@ export const menuLinks: Array<{ title: string; path: string }> = [
 		path: "/posts/",
 	},
 	{
+		title: "📖",
+		path: "https://home.asyncx.top",
+	},
+	{
 		title: "About",
 		path: "/about/",
 	},
