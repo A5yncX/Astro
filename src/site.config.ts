@@ -39,7 +39,7 @@ export const menuLinks: Array<{ title: string; path: string }> = [
 	},
 	{
 		title: "📖",
-		path: "https://doc.asyncx.top",
+		path: "https://lib.asyncx.top",
 	},
 	{
 		title: "About",
