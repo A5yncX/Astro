@@ -4,7 +4,7 @@ import PostPreview from "@/components/blog/PostPreview";
 import SocialList from "@/components/SocialList";
 import { getAllPosts, sortMDByDate } from "@/utils";
 
-const MAX_POSTS = 10;
+const MAX_POSTS = 30;
 const allPosts = await getAllPosts();
 const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
 
@@ -56,10 +56,12 @@ const cactusTech: Array<{ title: string; desc: string; href: string }> = [
 	<section>
 		<h1 class="title mb-6">👋🏻Hello!</h1>
 		<p class="mb-4">
-			I'm AsyncX, welcome to my Blog📖.<br>
+			I'm AsyncX, welcome to my Blog📖.<br><br>
 			I will be documenting the journey of life🥳
-			and problem-solving💡here, <br>
-			occasionally delving into more academic philosophical questions👀.<br>
+			and problem-solving💡here, <br><br>
+			occasionally delving into more academic philosophical questions👀.<br><br>
+			You can learn more about me <a href="https://asyncx.top" class="cactus-link" style="font-size: 2rem;" rel="prefetch">HERE</a>
+
 		</p>
 		<SocialList />
 	</section>
